@@ -43,15 +43,6 @@ nav ul li a:hover {
     display: block;
     width: 100px !important; /* Set the width of the image to 100px */
     height: 100px !important; /* Set the height of the image to 100px */
-    margin: 15px auto;
-    border-radius: 10px;
-    transform: scale(1); 
-    transform-origin: center; /* Keeps the image centered */
-}
-
-/* No changes needed to the .project container */
-.project {
-    text-align: center; /* Centers content inside the container */
 }
 
 
