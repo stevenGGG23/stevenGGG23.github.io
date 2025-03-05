@@ -36,6 +36,13 @@ nav ul li a {
 }
 nav ul li a:hover {
     text-decoration: underline;
+}  
+
+
+
+.fitflow-img {
+    width: 50%; /* Adjust to your desired width */
+    height: auto; /* Maintains the aspect ratio */
 }
 
 /* Header */
