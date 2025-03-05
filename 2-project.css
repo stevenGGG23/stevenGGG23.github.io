@@ -35,8 +35,8 @@ nav ul li a {
     transition: 0.3s;
 }
 nav ul li a:hover {
-    text-decoration:
-
+    text-decoration: underline;
+}
 
 /* Header */
 header {
@@ -51,8 +51,6 @@ header {
     border-radius: 50%;
     border: 4px solid white;
 } 
-
-
 
 /* Sections */
 section { 
@@ -72,8 +70,8 @@ section {
 /* Skills */
 #skills ul { 
     list-style: none; 
-    background: #f9f7f7;
     padding: 0;
+    background: #f9f7f7;
 }
 #skills li { 
     background: #eef;  
@@ -117,7 +115,6 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 #education h2 {
     color: hsla(267, 57%, 41%, 0.835);
