@@ -52,6 +52,13 @@ header {
     border: 4px solid white;
 } 
 
+.experience-image {
+    max-width: 25%;       /* Ensures the image doesn't exceed the container width */
+    height: auto;          /* Keeps the aspect ratio intact */
+    display: block;        /* Ensures the image is displayed properly */
+    margin: 0 auto;        /* Centers the image */
+}
+
 /* Sections */
 section { 
     max-width: 900px;
@@ -70,8 +77,8 @@ section {
 /* Skills */
 #skills ul { 
     list-style: none; 
-    padding: 0;
     background: #f9f7f7;
+    padding: 0;
 }
 #skills li { 
     background: #eef;  
@@ -115,6 +122,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 #education h2 {
     color: hsla(267, 57%, 41%, 0.835);
