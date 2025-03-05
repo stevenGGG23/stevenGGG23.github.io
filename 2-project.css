@@ -41,8 +41,11 @@ nav ul li a:hover {
 
 
 .fitflow-img {
-    width: 300px; /* Fixed width */
-    height: 200px; /* Fixed height */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 10px;
 }
 
 /* Header */
