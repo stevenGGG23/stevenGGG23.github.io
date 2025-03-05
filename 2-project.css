@@ -42,12 +42,18 @@ nav ul li a:hover {
 
 .fitflow-img {
     display: block;
-    width: 100%; /* Keeps the image responsive to its container */
-    height: auto;
+    width: 100%; /* Make the image responsive to its parent container */
+    height: auto; /* Maintain aspect ratio */
     margin: 15px auto;
     border-radius: 10px;
-    transform: scale(2); /* Doubles the size */
+    transform: scale(2); /* Doubles the size of the image */
     transform-origin: center; /* Keeps the image centered */
+}
+
+/* Optional: Style for the project container */
+.project {
+    width: 100%; /* Ensure the parent container allows the full width */
+    text-align: center; /* Centers content inside the container */
 }
 
 /* Header */
