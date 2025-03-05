@@ -59,12 +59,6 @@ header {
     border: 4px solid white;
 } 
 
-.experience-image {
-    max-width: 25%;       /* Ensures the image doesn't exceed the container width */
-    height: auto;          /* Keeps the aspect ratio intact */
-    display: block;        /* Ensures the image is displayed properly */
-    margin: 0 auto;        /* Centers the image */
-}
 
 /* Sections */
 section { 
