@@ -42,7 +42,7 @@ nav ul li a:hover {
 
 .fitflow-img {
     display: block;
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
     margin: 15px auto;
     border-radius: 10px;
