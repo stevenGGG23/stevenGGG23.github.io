@@ -39,20 +39,22 @@ nav ul li a:hover {
 }  
 
 .fitflow-img-container {
-    width: 1000px; /* Increase container width */
-    height: 500px; /* Increase container height */
+    width: 100%; /* Make the container width 100% of its parent */
+    max-width: 1200px; /* Limit the maximum width for larger screens */
+    height: auto; /* Let the height adjust based on the image aspect ratio */
     overflow: hidden; /* Hide any overflowing content */
+    margin: 0 auto; /* Center the container */
 }
 
 .fitflow-img {
-    width: 100%; /* Make the image stretch to the container */
-    height: 100%; /* Make the image stretch to the container */
-    object-fit: cover; /* Ensure the image fits within the container */
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Adjust height based on the image's aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
 }
 
 .fitflow-img.mtsu {
-    width: 100%; /* Ensure it takes the full width of the container */
-    height: 100%; /* Ensure it takes the full height of the container */
+    width: 100%; /* Ensure it fills the container width */
+    height: auto; /* Let the height adjust automatically */
     object-fit: cover;
 }
 
