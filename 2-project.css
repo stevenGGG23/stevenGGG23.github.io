@@ -49,11 +49,7 @@ nav ul li a:hover {
     transform-origin: center; /* Keeps the image centered */
 }
 
-/* Optional: Style for the project container */
-.project {
-    width: 100px !important; /* Set the container width to 100px */
-    text-align: center; /* Centers content inside the container */
-}
+
 /* Header */
 header {
     text-align: center;
