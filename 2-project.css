@@ -39,6 +39,7 @@ nav ul li a:hover {
 }  
 
 
+/* Fitflow Image Styling */
 .fitflow-img-container {
     width: 150px; /* Define container width */
     height: 150px; /* Define container height */
@@ -49,14 +50,17 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure the image fits within the container */
-} 
+}
 
+/* MTSU Image Styling */
 .mtsu-img {
     display: block;
-    width: 900px; /* Set the width of the MTSU image */
-    height: 600px; /* Set the height of the MTSU image */
-    object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the area */
+    width: 100%; /* Make it responsive */
+    max-width: 900px; /* Set maximum width to 900px */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area */
 }
+
 
 
 /* Header */
