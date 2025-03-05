@@ -39,10 +39,16 @@ nav ul li a:hover {
 }  
 
 
+.fitflow-img-container {
+    width: 150px; /* Define container width */
+    height: 150px; /* Define container height */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
 .fitflow-img {
-    display: block;
-    width: 100px; /* Set the width of the image to 100px */
-    height: 100px; /* Set the height of the image to 100px */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fits within the container */
 }
 
 
