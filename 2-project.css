@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 /* Optional: Style for the project container */
 .project {
-    width: 100%; /* Ensure the parent container allows the full width */
+    width: 40%; /* Ensure the parent container allows the full width */
     text-align: center; /* Centers content inside the container */
 }
 
