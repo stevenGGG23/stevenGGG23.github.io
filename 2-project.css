@@ -42,11 +42,11 @@ nav ul li a:hover {
 
 .fitflow-img {
     display: block;
-    width: 100%; /* Make the image responsive to its parent container */
+    width: 40%; /* Make the image responsive to its parent container */
     height: auto; /* Maintain aspect ratio */
     margin: 15px auto;
     border-radius: 10px;
-    transform: scale(1); /* Doubles the size of the image */
+    transform: scale(1); 
     transform-origin: center; /* Keeps the image centered */
 }
 
