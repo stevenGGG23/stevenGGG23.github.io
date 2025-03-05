@@ -52,13 +52,7 @@ header {
     border: 4px solid white;
 } 
 
-.experience-image {
-    max-width: 50%;      /* Ensures the image doesn't exceed the container width */
-    width: 200px;        /* Sets a fixed width of 200px */
-    height: auto;        /* Maintains the aspect ratio */
-    display: block;      /* Ensures the image is displayed properly */
-    margin: 0 auto;      /* Centers the image */
-}
+
 
 /* Sections */
 section { 
