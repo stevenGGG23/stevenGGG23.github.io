@@ -51,16 +51,6 @@ nav ul li a:hover {
     object-fit: cover; /* Ensure the image fits within the container */
 }
 
-/* MTSU Image Styling */
-.mtsu-img {
-    display: block;
-    width: 100%; /* Make it responsive */
-    max-width: 900px; /* Set maximum width to 900px */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensures the image covers the area */
-}
-
-
 
 /* Header */
 header {
