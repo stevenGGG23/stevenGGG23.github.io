@@ -46,7 +46,9 @@ nav ul li a:hover {
     height: auto;
     margin: 15px auto;
     border-radius: 10px;
+    width: 300px; /* Adjust width for testing */
 }
+
 
 /* Header */
 header {
