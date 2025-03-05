@@ -40,8 +40,8 @@ nav ul li a:hover {
 
 
 .fitflow-img-container {
-    width: 150px; /* Define container width */
-    height: 150px; /* Define container height */
+    width: 600px; /* Define container width */
+    height: 250px; /* Define container height */
     overflow: hidden; /* Hide any overflowing content */
 }
 
