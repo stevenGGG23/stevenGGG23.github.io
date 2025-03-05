@@ -41,8 +41,8 @@ nav ul li a:hover {
 
 .fitflow-img {
     display: block;
-    width: 200px; /* Set the width to 200px */
-    height: 200px; /* Set the height to 200px */
+    width: 100px !important; /* Set the width to 100px */
+    height: 100px !important; /* Set the height to 100px */
     margin: 15px auto;
     border-radius: 10px;
     transform: scale(1); 
@@ -51,10 +51,9 @@ nav ul li a:hover {
 
 /* Optional: Style for the project container */
 .project {
-    width: 200px; /* Set the container width to 200px */
+    width: 100px !important; /* Set the container width to 100px */
     text-align: center; /* Centers content inside the container */
 }
-
 /* Header */
 header {
     text-align: center;
