@@ -38,10 +38,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }  
 
-
 .fitflow-img-container {
-    width: 600px; /* Define container width */
-    height: 250px; /* Define container height */
+    width: 800px; /* Increase container width */
+    height: 400px; /* Increase container height */
     overflow: hidden; /* Hide any overflowing content */
 }
 
@@ -52,8 +51,8 @@ nav ul li a:hover {
 } 
 
 .fitflow-img.mtsu {
-    width: 200px; /* Different size for MTSU image */
-    height: 200px;
+    width: 300px; /* Different size for MTSU image */
+    height: 300px;
     object-fit: cover;
 }
 
