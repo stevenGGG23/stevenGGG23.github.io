@@ -46,7 +46,7 @@ nav ul li a:hover {
     height: auto; /* Maintain aspect ratio */
     margin: 15px auto;
     border-radius: 10px;
-    transform: scale(2); /* Doubles the size of the image */
+    transform: scale(1); /* Doubles the size of the image */
     transform-origin: center; /* Keeps the image centered */
 }
 
