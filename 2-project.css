@@ -50,6 +50,13 @@ header {
     height: 150px;
     border-radius: 50%;
     border: 4px solid white;
+} 
+
+.experience-image {
+    max-width: 100%;       /* Ensures the image doesn't exceed the container width */
+    height: auto;          /* Keeps the aspect ratio intact */
+    display: block;        /* Ensures the image is displayed properly */
+    margin: 0 auto;        /* Centers the image */
 }
 
 /* Sections */
