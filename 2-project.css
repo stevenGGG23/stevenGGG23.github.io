@@ -52,12 +52,13 @@ nav ul li a:hover {
     object-fit: cover; /* Ensure the image covers the container without stretching */
 }
 
-.fitflow-img.mtsu {
-    width: 100%; /* Ensure it fills the container width */
-    height: auto; /* Let the height adjust automatically */
-    object-fit: cover;
+.profile-image {
+    width: 200px;
+    height: 200px; /* Make it equal for a perfect circle */
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover; /* THIS fixes the distortion */
 }
-
 
 /* Header */
 header {
